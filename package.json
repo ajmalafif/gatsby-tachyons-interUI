@@ -5,7 +5,10 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "css": "tachyons src/css/index.css > src/index.css --minify",
+    "prestart": "npm run css",
+    "prebuild": "npm run css"
   },
   "dependencies": {
     "gatsby": "^1.9.250",
