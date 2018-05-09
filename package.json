@@ -4,9 +4,9 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "purgecss --css ./src/css/index.css --con public/*.html public/**/*.html -o ./src/pages && gatsby build",
+    "build": "purgecss --css ./src/css/main.css --con public/*.html public/**/*.html -o ./src/pages && gatsby build",
     "serve": "gatsby serve",
-    "css": "tachyons src/css/index.css > src/index.css --minify",
+    "css": "tachyons src/css/index.css > src/css/main.css --minify",
     "prestart": "npm run css",
     "prebuild": "npm run css"
   },

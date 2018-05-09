@@ -3,17 +3,17 @@
 
 - [x] Import Tachyons.io
 - [x] Custom webfont (Inter UI)
-- [ ] PurgeCSS
+- [x] PurgeCSS ([doesn't seem to work(https://github.com/taylorbryant/gatsby-starter-tailwind/blob/master/package.json#L20)
+- [ ] PWA
 - [ ] Critical path CSS
 - [ ] Google Analytics
-- [ ] `fontfaceobserver` for fontface loading and FOUT handling
 - [ ] Syntax highlighting
 - [ ] ImageOptim?
 - [ ] Next/Prev page
 - [ ] Load comment for Disqus commenting
 - [ ] Use CloudFlare CDN?
 - [ ] Sitemap
-- [ ] fontfaceobserver/webfontloader
+- [ ] `fontfaceobserver` for fontface loading and FOUT handling
 
 ##### Optimizations
 - [ ] Import font with `typefaces`
@@ -37,6 +37,8 @@ gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
 `gatsby develop`
 
 #### Snippets for the future
+
+##### PurgeCSS
 ```
 // purgecss -c purgecss.config.js -o ./src/pages && gatsby develop
 
@@ -53,5 +55,72 @@ module.exports = {
       extensions: ['html', 'js'],
     },
   ],
+}
+```
+
+##### Font-face
+```
+@font-face {
+  font-family: "Inter UI";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Inter-UI-Regular.woff2") format("woff2"),
+    url("../fonts/Inter-UI-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter UI";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/Inter-UI-Italic.woff2") format("woff2"),
+    url("../fonts/Inter-UI-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter UI";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Inter-UI-Medium.woff2") format("woff2"),
+    url("../fonts/Inter-UI-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter UI";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/Inter-UI-MediumItalic.woff2") format("woff2"),
+    url("../fonts/Inter-UI-MediumItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter UI";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Inter-UI-Bold.woff2") format("woff2"),
+    url("../fonts/Inter-UI-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter UI";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/Inter-UI-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Inter-UI-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter UI";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/Inter-UI-Black.woff2") format("woff2"),
+    url("../fonts/Inter-UI-Black.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter UI";
+  font-style: italic;
+  font-weight: 900;
+  src: url("../fonts/Inter-UI-BlackItalic.woff2") format("woff2"),
+    url("../fonts/Inter-UI-BlackItalic.woff") format("woff");
+}
+
+body {
+  font-family: "Inter UI", sans-serif;
 }
 ```

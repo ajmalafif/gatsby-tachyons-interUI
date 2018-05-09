@@ -1,14 +1,14 @@
 module.exports = {
-  content: ['./public/**/*.html'],
-  css: ['./src/index.css'],
+  content: ["./public/**/*.html", "./public/*.html"],
+  css: ["./src/index.css"],
   extractors: [
     {
       extractor: class {
         static extract(content) {
-          return content.match(/[A-z0-9-:\/]+/g)
+          return content.match(/[A-z0-9-:\/]+/g);
         }
       },
-      extensions: ['html'],
-    },
-  ],
-}
+      extensions: ["html"]
+    }
+  ]
+};
