@@ -3,9 +3,9 @@
 
 - [x] Import Tachyons.io
 - [x] Custom webfont (Inter UI)
-- [x] PurgeCSS ([doesn't seem to work(https://github.com/taylorbryant/gatsby-starter-tailwind/blob/master/package.json#L20)
+- [x] PurgeCSS ([doesn't seem to work](https://github.com/taylorbryant/gatsby-starter-tailwind/blob/master/package.json#L20))
 - [ ] PWA
-- [ ] Critical path CSS
+- [ ] Efficient and smart `<head>` with Helmet
 - [ ] Google Analytics
 - [ ] Syntax highlighting
 - [ ] ImageOptim?
@@ -14,6 +14,7 @@
 - [ ] Use CloudFlare CDN?
 - [ ] Sitemap
 - [ ] `fontfaceobserver` for fontface loading and FOUT handling
+- [ ] Critical path CSS
 
 ##### Optimizations
 - [ ] Import font with `typefaces`

@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "purgecss --css ./src/css/main.css --con public/*.html public/**/*.html -o ./src/pages && gatsby build",
+    "build": "purgecss -c purgecss.config.js -o ./src/css && gatsby build",
     "serve": "gatsby serve",
     "css": "tachyons src/css/index.css > src/css/main.css --minify",
     "prestart": "npm run css",
