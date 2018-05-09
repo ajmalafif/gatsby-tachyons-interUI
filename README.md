@@ -35,3 +35,23 @@ gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
 
 ## Running in development
 `gatsby develop`
+
+#### Snippets for the future
+```
+// purgecss -c purgecss.config.js -o ./src/pages && gatsby develop
+
+module.exports = {
+  content: ['./public/**/*.html', './src/**/*.js'],
+  css: ['./src/index.css'],
+  extractors: [
+    {
+      extractor: class {
+        static extract(content) {
+          return content.match(/[A-z0-9-:\/]+/g)
+        }
+      },
+      extensions: ['html', 'js'],
+    },
+  ],
+}
+```

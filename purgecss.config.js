@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./public/**/*.html', './src/**/*.js'],
+  content: ['./public/**/*.html'],
   css: ['./src/index.css'],
   extractors: [
     {
@@ -8,7 +8,7 @@ module.exports = {
           return content.match(/[A-z0-9-:\/]+/g)
         }
       },
-      extensions: ['html', 'js'],
+      extensions: ['html'],
     },
   ],
 }
