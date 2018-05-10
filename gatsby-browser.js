@@ -1,4 +1,4 @@
-var FontFaceObserver = require('fontfaceobserver');
+var FontFaceObserver = require('./node_modules/fontfaceobserver');
 
 // Define phase 2 fonts
 const interNormal = new FontFaceObserver('Inter UI', { weight: 400 });
