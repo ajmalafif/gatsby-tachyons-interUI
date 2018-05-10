@@ -8,6 +8,11 @@ import '../css/main.css'
 
 
 export default () =>
-  <div className="pa4 link dim">
-    <p className="headline gray f2">Hello world!</p>
+  <div className='pa4 link dim'>
+    <a href="/about" className='headline gray f2'>
+      About
+  </a>
+    <p className='headline gray f2'>
+      Home
+  </p>
   </div>
