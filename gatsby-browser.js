@@ -6,12 +6,13 @@ const interSemiBold = new FontFaceObserver('Inter UI Medium', { weight: 500 });
 
 exports.onInitialClientRender = () => {
   Promise.all([interNormal.load(), interSemiBold.load()]).then(function() {
+    document.documentElement.classList.add('fonts-enabled');
 
     Promise.all([
       interNormal.load(),
       interSemiBold.load(),
     ]).then(function() {
-      document.documentElement.classList.add('fonts-enabled');
+      // document.documentElement.classList.add('fonts-enabled');
     });
   });
 };
