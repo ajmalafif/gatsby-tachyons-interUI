@@ -6,18 +6,16 @@
 - [x] PurgeCSS ([doesn't seem to work](https://github.com/taylorbryant/gatsby-starter-tailwind/blob/master/package.json#L20))
 - [ ] PWA
 - [ ] Efficient and smart `<head>` with Helmet
-- [ ] Google Analytics
 - [ ] Syntax highlighting
-- [ ] ImageOptim?
 - [ ] Next/Prev page
-- [ ] Load comment for Disqus commenting
-- [ ] Use CloudFlare CDN?
 - [ ] Sitemap
-- [ ] `fontfaceobserver` for fontface loading and FOUT handling
+- [ ] Pagination([Reference](https://github.com/pixelstew/gatsby-paginate))
+- [ ] ImageOptim?
 - [ ] Critical path CSS
-
-##### Optimizations
-- [ ] Import font with `typefaces`
+- [ ] Google Analytics
+- [ ] Load comment for Disqus commenting
+- [ ] `fontfaceobserver` for fontface loading and FOUT handling
+- [ ] Use CloudFlare CDN?
 
 ## References
 ##### Import CSS
@@ -26,16 +24,6 @@
 - https://github.com/smartive/smartive.ch/blob/master/src/layouts/index.js
 - https://github.com/greglobinski/gatsby-starter-mini-catalog/blob/master/src/layouts/index.js
 - https://github.com/KyleAMathews/typefaces/issues/31
-## gatsby-starter-hello-world
-Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
-```
-
-## Running in development
-`gatsby develop`
 
 #### Snippets for the future
 

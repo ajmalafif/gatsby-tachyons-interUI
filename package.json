@@ -11,8 +11,10 @@
     "prebuild": "npm run css"
   },
   "dependencies": {
+    "fontfaceobserver": "^2.0.13",
     "gatsby": "^1.9.250",
     "gatsby-link": "^1.6.40",
+    "gatsby-plugin-offline": "^1.0.16",
     "inter-ui": "^2.5.1",
     "purgecss": "^0.21.0",
     "tachyons": "^4.9.1",
