@@ -10,8 +10,8 @@ exports.onInitialClientRender = () => {
     interNormal.load(),
     interSemiBold.load(),
   ]).then(function () {
-    document.documentElement.className += "fonts-loaded";
+    document.documentElement.className += " fonts-loaded";
   }, function () {
-    document.documentElement.className += "fonts-unavailable";
+    document.documentElement.className += " fonts-unavailable";
   });
 };
