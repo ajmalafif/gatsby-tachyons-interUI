@@ -5,6 +5,7 @@
 - [x] Custom webfont (Inter UI)
 - [x] `fontfaceobserver` for fontface loading and FOUT handling
 - [x] `fonts-loaded` cookies for returning visit
+- [x] Favicon
 - [ ] PurgeCSS ([doesn't seem to work](https://github.com/taylorbryant/gatsby-starter-tailwind/blob/master/package.json#L20))
 - [ ] Syntax highlighting
 - [ ] PWA
