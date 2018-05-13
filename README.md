@@ -3,20 +3,21 @@
 
 - [x] Import Tachyons.io
 - [x] Custom webfont (Inter UI)
+- [x] `fontfaceobserver` for fontface loading and FOUT handling
 - [x] `fonts-loaded` cookies for returning visit
 - [ ] PurgeCSS ([doesn't seem to work](https://github.com/taylorbryant/gatsby-starter-tailwind/blob/master/package.json#L20))
-- [ ] Efficient and smart `<head>` with Helmet
 - [ ] Syntax highlighting
+- [ ] PWA
+- [ ] SEO Schema JSONLD
+- [ ] Efficient and smart `<head>` with Helmet
 - [ ] Next/Prev page
 - [ ] Sitemap
-- [ ] Pagination([Reference](https://github.com/pixelstew/gatsby-paginate))
-- [ ] ImageOptim?
-- [ ] Critical path CSS
 - [ ] Google Analytics
+- [ ] Pagination([Reference](https://github.com/pixelstew/gatsby-paginate))
+### Maybe
 - [ ] Load comment for Disqus commenting
-- [ ] `fontfaceobserver` for fontface loading and FOUT handling
 - [ ] Use CloudFlare CDN?
-- [ ] PWA
+- [ ] ImageOptim?
 
 ## References
 ##### Import CSS
