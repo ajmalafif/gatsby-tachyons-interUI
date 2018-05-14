@@ -15,6 +15,7 @@
 - [ ] Sitemap
 - [ ] Google Analytics
 - [ ] Pagination([Reference](https://github.com/pixelstew/gatsby-paginate))
+- [ ] Cache JS files (will available on Gatsby v2)
 ### Maybe
 - [ ] Load comment for Disqus commenting
 - [ ] Use CloudFlare CDN?
