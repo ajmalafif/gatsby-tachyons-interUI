@@ -6,15 +6,15 @@
 - [x] `fontfaceobserver` for fontface loading and FOUT handling
 - [x] `fonts-loaded` cookies for returning visit
 - [x] Favicon
-- [ ] PWA
-- [ ] SEO Schema JSONLD
+- [x] PWA
 - [ ] Efficient and smart `<head>` with Helmet
-- [ ] Next/Prev page
+- [ ] SEO Schema JSONLD
 - [ ] Sitemap
 - [ ] Google Analytics
-- [ ] Syntax highlighting
 - [ ] ImageOptim? (image-remark)
+- [ ] Next/Prev page
 - [ ] Pagination([Reference](https://github.com/pixelstew/gatsby-paginate))
+- [ ] Syntax highlighting
 
 ### v2
 - [ ] Load comment for Disqus commenting

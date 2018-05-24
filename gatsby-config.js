@@ -1,4 +1,7 @@
 module.exports = {
+  siteMetadata: {
+    siteUrl: `https://gatsby-tachyons-interui.netlify.com`
+  },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
@@ -18,6 +21,9 @@ module.exports = {
           windows: true
         }
       }
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`
     },
     {
       resolve: `gatsby-plugin-netlify`,
