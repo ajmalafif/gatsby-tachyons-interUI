@@ -7,9 +7,9 @@
 - [x] `fonts-loaded` cookies for returning visit
 - [x] Favicon
 - [x] PWA
+- [x] Sitemap
 - [ ] Efficient and smart `<head>` with Helmet
 - [ ] SEO Schema JSONLD
-- [ ] Sitemap
 - [ ] Google Analytics
 - [ ] ImageOptim? (image-remark)
 - [ ] Next/Prev page
