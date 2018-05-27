@@ -1,13 +1,15 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://gatsby-tachyons-interui.netlify.com`
+    siteUrl: `https://gatsby-tachyons-interui.netlify.com`,
+    title: `Ajmal Afif's personal website 👨🏻‍💻`
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-catch-links`,
     {
-      resolve: 'gatsby-plugin-favicon',
+      resolve: `gatsby-plugin-favicon`,
       options: {
-        logo: './src/favicon.png',
+        logo: `./src/favicon.png`,
         injectHTML: true,
         icons: {
           android: false,
@@ -38,15 +40,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'ajmalafif',
-        short_name: 'ajmalafif',
-        start_url: '/',
-        background_color: '#fff',
-        theme_color: '#05f',
-        display: 'minimal-ui',
-        icon: 'src/images/icon.png', // This path is relative to the root of the site.
+        name: `ajmalafif`,
+        short_name: `ajmalafif`,
+        start_url: `/`,
+        background_color: `#fff`,
+        theme_color: `#05f`,
+        display: `minimal-ui`,
+        icon: `src/images/icon.png`, // This path is relative to the root of the site.
       }
     },
-    'gatsby-plugin-offline'
+    `gatsby-plugin-offline`
   ]
 }
