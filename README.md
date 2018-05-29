@@ -8,7 +8,8 @@
 - [x] Favicon
 - [x] PWA
 - [x] Sitemap
-- [ ] Efficient and smart `<head>` with Helmet
+- [x] Custom `<head>` with Helmet
+- [ ] Personalized `<head>` for each page
 - [ ] SEO Schema JSONLD
 - [ ] Google Analytics
 - [ ] ImageOptim? (image-remark)
