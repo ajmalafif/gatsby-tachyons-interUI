@@ -15,6 +15,7 @@
     "fsevents": "^1.2.3",
     "gatsby": "^1.9.260",
     "gatsby-link": "^1.6.40",
+    "gatsby-plugin-catch-links": "^1.0.22",
     "gatsby-plugin-favicon": "^2.1.1",
     "gatsby-plugin-manifest": "^1.0.22",
     "gatsby-plugin-netlify": "^1.0.19",
