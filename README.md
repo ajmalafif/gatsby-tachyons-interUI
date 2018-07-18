@@ -10,11 +10,11 @@
 - [x] Sitemap
 - [x] Custom `<head>` with Helmet
 - [ ] Personalized `<head>` for each page
-- [ ] SEO Schema JSONLD
+- [ ] SEO Schema JSONLD ([reference](https://github.com/jlengstorf/lengstorf.com/blob/master/src/components/SEO.js))
 - [ ] Google Analytics
 - [ ] ImageOptim? (image-remark)
 - [ ] Next/Prev page
-- [ ] Pagination([Reference](https://github.com/pixelstew/gatsby-paginate))
+- [ ] Pagination ([reference](https://github.com/pixelstew/gatsby-paginate))
 - [ ] Syntax highlighting
 
 ### v2
