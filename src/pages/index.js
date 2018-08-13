@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-import '../fonts/Inter-UI-Regular.woff2'
+// import '../fonts/Inter-UI-Regular.woff2'
 import '../fonts/Inter-UI-Regular.woff'
 import '../css/font-face.css'
 import '../css/main.css'
@@ -35,6 +35,6 @@ export default () =>
       <meta name="twitter:url" content={config.siteUrl} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} /> */}
-      <html lang='en' className={isFontLoaded ? 'fonts-loaded' : null} />
+      {/* <html lang='en' className={isFontLoaded ? 'fonts-loaded' : null} /> */}
     </Helmet>
   </div>
