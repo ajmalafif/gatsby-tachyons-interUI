@@ -6,7 +6,7 @@ import '../fonts/Inter-UI-Regular.woff'
 import '../css/font-face.css'
 import '../css/main.css'
 
-const isFontLoaded = '<!--#if expr="$HTTP_COOKIE=/fonts\-loaded\=true/" -->'
+// const isFontLoaded = '<!--#if expr="$HTTP_COOKIE=/fonts\-loaded\=true/" -->'
 
 export default () =>
     <div className='pa4 link dim'>
@@ -17,6 +17,6 @@ export default () =>
         About
   </a>
       <Helmet>
-        <html lang='en' className={isFontLoaded ? 'fonts-loaded' : null} />
+        {/* <html lang='en' className={isFontLoaded ? 'fonts-loaded' : null} /> */}
       </Helmet>
     </div>
