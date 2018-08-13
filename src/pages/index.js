@@ -1,8 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-// import '../fonts/Inter-UI-Regular.woff2'
-// import '../fonts/Inter-UI-Regular.woff'
 // import '../css/font-face.css'
 import '../css/main.css'
 

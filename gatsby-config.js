@@ -9,7 +9,7 @@ module.exports = {
       options: {
         custom: {
           families: ['Inter UI', 'Inter UI Medium'],
-          urls: ['/css/font-face.css']
+          urls: ['./css/font-face.css']
         }
       }
     },
@@ -32,6 +32,13 @@ module.exports = {
           windows: true
         }
       }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'css',
+        path: `${__dirname}/src/css/`,
+      },
     },
     {
       resolve: 'gatsby-plugin-sitemap'
